@@ -1,0 +1,25 @@
+{
+  "name": "rate-limiter-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "chai": "^5.2.0",
+    "chai-http": "^5.1.2",
+    "eslint": "^9.28.0",
+    "eslint-plugin-mocha": "^11.1.0",
+    "globals": "^16.2.0",
+    "mocha": "^11.5.0"
+  }
+}
